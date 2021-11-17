@@ -8,16 +8,24 @@ $(document).ready(function(){
         arrows: false,
         responsive: [
             {
-                breakpoint: 400,
-                settings: {
-                    centerMode: true,
-                    infinite: true,
-                    slidesToShow: 1,
-                    slidesToScroll: 1  
-                }
+              breakpoint: 426,
+              settings: {
+                arrows: false,
+                slidesToShow: 1
+              }
             }
         ]
     });
+    function windowSize(){
+        if ($(window).width() <= '430'){
+            $('.examples_cards').slick({
+                slidesToShow: 1,  
+                arrows: false
+            });
+        } 
+    }
+    $(window).on('load resize',windowSize);
+    
     var z = 0;
     $('.questtions_list_item').on('click', function() {
         

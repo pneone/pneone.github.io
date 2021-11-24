@@ -26,25 +26,22 @@ $(document).ready(function(){
     }
     $(window).on('load resize',windowSize);
     
-    var z = 0;
+    
     $('.questtions_list_item').on('click', function() {
         
-        if($(this)){
-            $(this).addClass('active')
-            z++
-        }        
-        else if($(this,'active')){
-            $(this).removeClass('active')
-            z--
-        }  
-
+        
+        if($(this).hasClass('active')){
+             
+            $(this).removeClass('active');
+        }
+        else{
+            $('.questtions_list_item').removeClass('active');
+            $(this).addClass('active');
+            
+        }
         
     });
-    if(z == 2){
-        $('.questtions').on('click', function(){
-            $('.questtions_list_item').toggleClass('active');
-        });
-    }
+    
     new WOW().init();
 });
 

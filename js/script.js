@@ -45,7 +45,7 @@ $(document).ready(function(){
     $(window).on('load resize',windowSize);
     
     
-    $('.questtions_list_item').on('click', function() {
+    $('.questtions_list_item .click').on('click', function() {
         
         
         if($(this).hasClass('active')){
@@ -53,7 +53,7 @@ $(document).ready(function(){
             $(this).removeClass('active');
         }
         else{
-            $('.questtions_list_item').removeClass('active');
+            $('.questtions_list_item .click').removeClass('active');
             $(this).addClass('active');
             
         }
@@ -63,8 +63,8 @@ $(document).ready(function(){
         
         $('.application_true').addClass('active');
         if($('.application_true').hasClass('active')){
-            $('.application_true').on('click', function() {
-                $(this).removeClass('active');
+            $('.application_true_plus').on('click', function() {
+                $('.application_true').removeClass('active');
             });
             
         }

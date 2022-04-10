@@ -39,6 +39,7 @@
     <link rel="preload" href="img/header/Womens-Health-logo-768x432 1.png" as="image" />
     <link rel="preload" href="img/whatToExpect/why_hand.png" as="image" />
     <link rel="preload" href="img/why/why_img_mobile.png" as="image" />
+    <link rel="preload" href="img/why/why_img.png" as="image" />
     <!-- <link rel="preload" href="img/" as="image" />
     <link rel="preload" href="img/" as="image" />
     <link rel="preload" href="img/" as="image" />
@@ -247,7 +248,8 @@
                 </ul>
             </div>
         </div>
-        <img src="img/why/why_img_mobile.png" alt="" class="why_img">
+        <img src="img/why/why_img.png" alt="" class="why_img desk">
+        <img src="img/why/why_img_mobile.png" alt="" class="why_img mob">
     </section>
 
     <section class="section theWelloryxDifference">
@@ -307,30 +309,7 @@
     </section>
 
 
-    <!-- <script>
-
-        const svgPath = document.querySelectorAll('.path');
-
-        const svgText = anime({
-            targets: svgPath,
-            loop: true,
-            direction: 'alternate',
-            strokeDashoffset: [anime.setDashoffset, 0],
-            easing: 'easeInOutSine',
-            duration: 350,
-            delay: (el, i) => { return i * 250 }
-        });
-
-        // Preloader page
-        jQuery(document).ready(function($) {
-            $(window).on('load', function () {
-                var $preloader = $('.preloader'),
-                    $loader = $preloader.find('.preloader__loader');
-                $loader.fadeOut();
-                $preloader.delay(250).fadeOut(200);
-            });
-        });
-    </script> -->
+    
 
 
     <script src="js/anime.min.js"></script>

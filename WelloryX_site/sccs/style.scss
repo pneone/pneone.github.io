@@ -1,0 +1,1554 @@
+@font-face {font-family: "Roobert TWHINT"; src: url("//db.onlinewebfonts.com/t/158812454bc0e9c9debed8fe678003c0.eot"); src: url("//db.onlinewebfonts.com/t/158812454bc0e9c9debed8fe678003c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/158812454bc0e9c9debed8fe678003c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/158812454bc0e9c9debed8fe678003c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/158812454bc0e9c9debed8fe678003c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/158812454bc0e9c9debed8fe678003c0.svg#Roobert TWHINT") format("svg"); }
+
+//           font-family: "Roobert TWHINT";
+
+*{
+    font-family: "Roobert TWHINT";
+}
+
+// Enroll button
+.enroll_btn{
+    background: #CCDB4A;
+    box-shadow: 0px 10px 30px rgba(152, 72, 91, 0.2);
+    border-radius: 56px;
+    border: none;
+    padding: 20px 80px;
+    a{
+        
+        font-family: "Roobert TWHINT";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        color: #5E724F;
+        text-decoration: none;
+    }
+    @media (max-width: 1200px) {
+        padding: 15px 50px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    @media (max-width: 993px) {
+        padding: 10px 30px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+.content{
+    padding: 0;
+    margin: 0;
+    @media (max-width: 576px) {
+        padding: 0 30px;
+    }
+}
+
+.mob{
+    display: none;
+    @media (max-width: 576px) {
+        display: block;
+    }
+}
+.desk{
+    @media (max-width: 576px) {
+        display: none;
+    }
+}
+
+.section{
+    padding: 120px 0;
+    position: relative;
+    overflow: hidden;  
+    max-width: 2000px;
+    margin: 0 auto;
+    @media (max-width: 1200px) {
+        padding: 90px 0;
+    }
+    @media (max-width: 576px) {
+        padding: 70px 0;
+    }
+}
+
+.h2{
+    font-family: "Roobert TWHINT";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 62px;
+    color: #F3654A;
+    @media (max-width: 1200px) {
+        font-size: 55px;
+        line-height: 65px; 
+    }
+    @media (max-width: 992px) {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    @media (max-width: 576px) {
+        padding: 0 30px;   
+    }
+    
+}
+
+.h3{
+    font-family: "Roobert TWHINT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #6D2936;
+    @media (max-width: 1200px) {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    @media (max-width: 992px) {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    @media (max-width: 576px) {
+     padding: 0 30px; 
+     font-size: 16px;  
+    }
+}
+
+.h5{
+    margin: 0;
+    .subtitle{
+        font-family: "Roobert TWHINT";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;        
+        color: #F3654A;
+        
+
+    }
+}
+
+body{
+    
+    background: #FCF6E8;  
+}
+
+
+
+
+//header
+.header{
+    position: relative;
+    background: #FCF6E8;  
+    overflow: hidden;  
+    max-width: 2000px;
+    margin: 0 auto;
+    .container{
+        z-index: 3;
+    }
+
+    .nav{
+        width: 95.2%;
+        max-width: 1600px;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0 auto; 
+        padding: 20px 70px;
+        padding-bottom: 0;
+        @media (max-width: 993px) {
+            padding: 0; 
+            padding-top: 10px;  
+        }
+        .logo{
+            img{
+                width: 100%;
+            }
+            @media (max-width: 993px) {
+            
+            }
+        }
+
+        &_btn{
+            border: 1px solid #F3654A;
+            background: none;
+            border-radius: 30px;
+            padding: 18px 41px;
+            max-height: 56px;
+            a{
+                    
+                font-family: "Roobert TWHINT";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                text-align: center;
+                letter-spacing: -0.3px;
+                color: #F3654A;
+                text-decoration: none;
+            }
+            @media (max-width: 768px) {
+                padding: 5px 10px;
+                font-size: 12px;
+            }
+        }
+
+        
+    }
+
+    .h1{
+        margin-top: 141px;
+        font-family: "Roobert TWHINT";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 80px;
+        line-height: 84px;
+        color: #F3654A;
+        @media (max-width: 1200px) {
+            font-size: 60px;
+            line-height: 65px;
+        }
+        @media (max-width: 993px) {
+            font-size: 40px;
+            line-height: 45px;
+            margin-top: 60px;
+        }
+        @media (max-width: 576px) {
+            padding: 0 30px;
+        }
+    }
+
+    .header_subtitle{
+        font-family: "Roobert TWHINT";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 45px;
+        color: #6D2936;
+        padding-right: 20px;
+        margin-top: 16px;
+        @media (max-width: 1200px) {
+            font-size: 30px;
+            line-height: 40px;
+        }
+        @media (max-width: 993px) {
+           font-size: 20px;
+           line-height: 30px;
+           margin-top: 5px;
+        }
+        @media (max-width: 576px) {
+            padding: 0 30px;
+        }
+    }
+
+    .enroll_btn{
+        margin-top: 60px;
+        max-width: 280px;
+        @media (max-width: 1200px) {
+            margin-top: 40px;
+        }
+        @media (max-width: 993px) {
+           margin-top: 25px;
+        }
+        @media (max-width: 768px) {
+            display: block;
+            margin: 0 auto;
+            margin-top: 16px;
+            max-width: 314px;
+            padding: 20px 90px;
+            font-size: 24px;
+            line-height: 29px;
+        }
+        @media (max-width: 325px) {
+           padding: 10px 85px;
+           font-size: 20px;
+        }
+    }
+
+    .h5{
+        margin-top: 16px;
+        .subtitle{
+            display: flex;
+        }
+        @media (max-width: 993px) {
+            margin-top: 10px;
+            .subtitle{
+                font-size: 13px;
+                line-height: 15px;
+            }
+        }
+        @media (max-width: 768px) {
+            .subtitle{
+                display: flex;
+                justify-content: center;
+            }
+        }
+        
+    }
+
+    .header_seen_section{
+        width: 100%;
+        background: #6D2936;
+        // position: relative;
+        margin: 0 auto;
+        padding: 45px 100px 55px 100px;
+        margin-top: 80px;
+        z-index: -2;
+        @media (max-width: 1200px) {
+            margin-top: 60px;
+            padding: 35px 80px 40px 80px;
+        }
+        @media (max-width: 993px) {
+            margin-top: 25px;
+            padding: 25px 60px;
+            
+        }
+        @media (max-width: 425px) {
+            margin-top: 380px;
+        }
+        @media (max-width: 375px) {
+            margin-top: 320px;
+        }
+        .title{
+            font-family: "Roobert TWHINT"; 
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 32px;     
+            text-align: center;       
+            color: #FFFFFF;
+
+            @media (max-width: 993px) {
+                font-size: 22px;
+                line-height: 18px;
+            }
+            
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-between;
+
+            @media (max-width: 768px) {
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-content: space-between;
+            }
+            
+            li{
+                list-style-type: none;
+                max-width: 220px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                @media (max-width: 1200px) {
+                    max-width: 150px;
+                }
+
+                @media (max-width: 993px) {
+                    max-width: 115px;
+                }
+
+                @media (max-width: 768px) {
+                    margin-top: 10px;
+                }
+
+                .header_seen_section_barnd{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .header_hand_img{
+        position: absolute;
+        width: 50%;
+        bottom: 55px;
+        right: -14%;
+        max-width: 755px;
+        @media (max-width: 992px) {
+            width: 40%;
+        }
+        @media (max-width: 768px) {
+            display: none;
+        }
+        @media (max-width: 425px) {
+            display: block;
+            width: 100%;
+            right: -27.2%;
+            bottom: 10%;
+        }
+        @media (max-width: 346px) {
+            bottom: 20%;
+        }
+    }
+}
+
+
+//whatToExpect
+.whatToExpect{
+    background: #EDCFAB;
+    .h2, .h3{
+        padding-right: 75px;
+        @media (max-width: 1200px) {
+            padding-right: 0px;
+        }
+        @media (max-width: 576px) {
+            padding-right: 30px;
+        }
+    }
+
+    .h3{
+        margin-top: 30px;
+    }
+    ul{
+        padding: 0;
+        margin-top: 18px;
+        margin-bottom: 0;
+        @media (max-width: 768px) {
+            margin-top: 10px;
+        }
+        @media (max-width: 576px) {
+            padding: 0 30px;
+            
+        }
+        @media (max-width: 425px) {
+            margin-top: 450px;
+        }
+        li{
+            list-style-type: none;
+            background: #FCF6E8;
+            box-shadow: 0px 5px 20px rgba(216, 182, 141, 0.5);
+            border-radius: 30px 30px 0px 30px;
+            display: flex;
+            align-items: center;
+            padding: 16px 32px;
+            min-height: 92px;
+            margin: 32px 10px 32px 0;
+            @media (max-width: 768px) {
+                margin: 16px 5px 16px 0;
+            }
+            @media (max-width: 576px) {
+                padding: 16px;
+            }
+            .why_list_icon{
+                margin-right: 24px;
+            }
+            .why_list_title{
+                max-width: 542px;
+                margin: 0;
+                padding: 0;
+            }
+            .list_link{
+                max-width: none;
+                width: 100%;
+            }
+            .why_list_link{
+                margin-right: 0;
+                margin-left: auto;  
+                font-family: "Roobert TWHINT";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;                
+                color: #F3654A;
+                width: 100px;
+                @media (max-width: 1200px) {
+                    width: 95px;
+                }
+                @media (max-width: 992px) {
+                    width: 75px;
+                    font-size: 12px;
+                }
+                @media (max-width: 576px) {
+                    width: 100%;
+                }
+            }
+
+        }
+    }
+
+    .why_hand{
+        position: absolute;
+        left: -8%;
+        top: 20%;
+        width: 65%;
+        transform: rotate(-20deg);
+        @media (max-width: 768px) {
+            display: none;
+        }
+        @media (max-width:425px) {
+            display: block;
+            width: 125%;
+            top: 27%;
+            left: -15%;
+        }
+        @media (max-width: 390px) {
+            width: 150%;
+            top: 29%;
+            left: -25%; 
+        }
+        @media (max-width: 340px) {
+            top: 32%;
+        }
+    }
+}
+
+
+//growingIndustry
+.growingIndustry{
+    background: #FCF6E8;
+    .row{
+        justify-content: space-around;
+        align-items: center;
+    }
+    .growingIndustry_body{
+        padding: 0;
+        margin: 0;
+        .h2{
+            color: #6D2936;
+        }
+        .h3{
+            margin-top: 30px;
+            .h3_link{
+                color: #F3654A;
+                cursor: pointer;
+                text-decoration: none;
+            }
+            .h3_strong{
+                font-weight: 600;
+            }
+        }
+    }
+    .graph{
+        max-width: 485px;
+        max-height: 536px;
+        background: #FFFFFF;
+        box-shadow: 0px 10px 30px rgba(152, 72, 91, 0.2);
+        border-radius: 30px 30px 0px 30px;
+        padding: 40px;
+        @media (max-width: 992px) {
+            padding: 20px; 
+            max-width: 320px;
+            max-height: 350px;          
+        }
+        @media (max-width: 768px) {
+            margin-top: 40px;
+        }
+        @media (max-width: 425px) {
+            max-width: 90%;
+            max-height: none;
+            padding: 20px 20px 40px 20px;
+            
+        }
+        .graph_stats{
+            position: relative;
+            .path1 , .path2 {
+                display: none;
+            }
+            @keyframes line {
+                100% {
+                    stroke-dashoffset: 0;
+                }
+            }
+            .path_line {
+                display: block;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: forwards;
+                animation-name: line;
+                animation-duration: 1s;
+                animation-delay: 0s;
+                stroke-dasharray: 466;
+                stroke-dashoffset: 466;
+    
+            }
+            svg{
+                display: block;
+                margin: 0 0 0 auto;
+                @media (max-width: 992px) {
+                    width: 220px;
+                    height: 200px;
+                }
+                @media (max-width: 425px) {
+                    width: 90%;
+                    height: 285px;
+                }
+            }
+            .vertical,.horizontal{
+                font-family: "Roobert TWHINT";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;                
+                color: #6D2936;
+                @media (max-width: 992px) {
+                    font-size: 12px;
+                }
+            }
+            .vertical{
+                position: absolute;
+                display: flex;
+                flex-wrap: wrap;
+                align-content: space-between;
+                justify-content: right;
+                max-width: 45px;
+                height: 260px;
+                top: 0;
+                left: 15px;
+                @media (max-width: 992px) {
+                   height: 180px;
+                   top: 5px;
+                   left: 10px;
+                }
+                @media (max-width: 425px) {
+                    height: 235px;
+                    top: 20px;
+                    left: -12px;
+                }
+            }
+            .horizontal{
+                display: flex;
+                justify-content: space-between;
+                width: 260px;
+                margin-left: 55px;
+                @media (max-width: 992px) {
+                    width: 210px;
+                    margin-left: 61px;
+                    margin-top: -10px;  
+                }
+                @media (max-width: 425px) {
+                    width: 80%;
+                    margin-left: 13%;
+                    margin-top: -25px;
+                }
+                @media (max-width: 375px) {
+                    margin-top: -35px;
+                }
+            }
+            
+        }
+        .graph_title{
+            font-family: "Roobert TWHINT";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 35px;
+            line-height: 45px;
+            color: #F3654A;
+            margin-top: 70px;
+            @media (max-width: 1200px) {
+                font-size: 30px;
+            }
+            @media (max-width: 992px) {
+                margin-top: 5px;
+                font-size: 20px;
+            }
+            @media (max-width: 425px) {
+                font-size: 25px;
+                margin-top: 15px;  
+            }
+        }
+        .graph_subtitle{
+            font-family: "Roobert TWHINT";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 30px;
+            color: #F3654A;
+            margin-top: 15px;
+            @media (max-width: 1200px) {
+                margin-top: 5px;
+                font-size: 20px;
+            }
+            @media (max-width: 992px) {
+                margin-top: 5px;
+                font-size: 15px;
+                line-height: 15px;   
+            }
+            @media (max-width: 425px) {
+                margin-top: 10px;
+                font-size: 16px;
+            }
+        }
+        
+
+        
+    }
+    
+}
+
+
+//why
+.why{
+    background: #F3654A;
+    padding-bottom: 0;
+    .h2{
+        color: #6D2936;
+        text-align: center;
+        z-index: 2;
+        .h2_white{
+            color: #FCF6E8;
+        }
+    }
+    h3{
+        color: #EDCFAB;
+        text-align: center;
+        max-width: 825px;
+        margin: 0 auto;
+        margin-top: 30px;
+        z-index: 2;
+    }
+    ul{
+        display: flex;
+        margin: 0 auto;
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 60px;
+        z-index: 2;
+        width: 85%;
+        li{
+            width: 360px;
+            height: 270px;
+            margin-top: 20px;
+            list-style-type: none;
+            background: #FFFFFF;
+            box-shadow: 0px 10px 30px rgba(152, 72, 91, 0.2);
+            border-radius: 30px;
+            padding: 35px 40px;
+            @media (max-width: 992px) {
+                width: 320px;
+                height: 250px;
+                padding: 25px 30px;
+            }
+            @media (max-width: 375px) {
+                width: 280px;
+            }
+            .why_list_header{
+                display: flex;
+                align-items: center;
+                @media (max-width: 375px) {
+                    height: 50px;
+                }
+                .title{
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 28px;
+                    line-height: 32px;                
+                    color: #F3654A;
+                    margin-left: 12px;
+                    @media (max-width: 992px) {
+                        font-size: 22px;
+                        height: 64px;
+                        display: flex;
+                        align-items: center;
+                    }
+                    @media (max-width: 375px) {
+                        font-size: 21px;
+                        line-height: 27px;
+                        
+                    }
+                }
+            }
+            .subtitle{
+                margin-top: 16px;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                color: #6D2936;
+                @media (max-width: 375px) {
+                    font-size: 14px;
+                    
+                }
+            }
+        }
+    }
+
+    .why_img{
+        // position: absolute;
+        width: 100%;
+        margin-top: -7%;
+        margin-bottom: -190px;
+        @media (max-width: 768px) {
+            margin-bottom: -50px;
+        }
+    }
+}
+
+
+//The WelloryX Difference 
+.theWelloryxDifference{
+    text-align: center;
+    background: #F3654A;
+    .h2{
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    ul{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-width: 1100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        position: relative;
+        margin-top: 25px;
+        @media (max-width: 992px) {
+            justify-content: space-around;            
+        }
+        @media (max-width: 425px) {
+            margin-top: 15px;
+        
+        }
+        li{
+
+
+            margin-top: 25px;
+            list-style-type: none;
+            background: #FFFFFF;
+            max-width: 346px !important;
+            height: 720px;
+            box-shadow: 0px 10px 30px rgba(152, 72, 91, 0.2);
+            border-radius: 30px 30px 0px 30px;
+            padding: 40px;
+            text-align: left;
+            @media (max-width: 1200px) {
+                max-width: 305px !important;
+                padding: 20px;
+                height: 555px;
+            }
+            @media (max-width: 425px) {
+                height: auto;
+                
+            }
+
+            .list_header{
+                .title{
+                    margin-top: 16px;   
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 28px;
+                    line-height: 32px;
+                    color: #F3654A;
+                    @media (max-width: 1200px) {
+                        font-size: 24px;
+                        line-height: 30px; 
+                    }
+                    @media (max-width: 425px) {
+                        font-size: 22px;
+                        line-height: 30px;
+                    }
+                }
+            }
+            .list_body{
+                margin-top: 16px;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 26px;
+                color: #6D2936;
+                @media (max-width: 1200px) {
+                    font-size: 16px;
+                    line-height: 23px;        
+                }
+                @media (max-width: 425px) {
+                    height: auto;
+                
+                }
+            }
+        }
+    }
+
+    .enroll_btn{
+        margin-top: 50px;
+        
+    }
+    .h5{
+        margin-top: 24px;
+        .subtitle{
+            color: #FFFFFF;
+        }
+    }
+}
+
+
+//Is WelloryX Right for You
+.isWelloryxRightForYou{
+    background: #EDCFAB;
+    position: relative;
+    .h3{
+        margin-top: 30px;
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+        width: 85%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 55px;
+        li{
+            position: relative;
+            padding: 10px;
+            filter: drop-shadow(0px 10px 30px rgba(152, 72, 91, 0.2));
+            list-style-type: none;
+
+            
+            .card{
+                border-radius: 30px;
+                overflow: hidden;
+                background: none;
+                border: none;
+                .card_header_img{
+                    width: 100%;
+                    margin-top: -20px;
+                }
+                .card_body{
+                    padding: 40px;
+                    height: 208px !important;
+                    background: #FFFFFF;
+                    @media (max-width: 992px) {
+                        padding: 20px;
+                        height: 140px !important;
+                    }
+                    .title{
+                        font-size: 28px;
+                        line-height: 32px;
+                        font-weight: 600;
+                        margin: 0;
+                        padding: 0;
+                        @media (max-width: 992px) {
+                            font-size: 20px;
+                            line-height: 25px;
+                        }
+                    }
+
+                }
+                
+            }
+            .card_last{
+                margin-bottom: 0;
+                margin-top: auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                height: 100%;
+                border-radius: 0;
+                .card_body{
+                    border-radius: 30px 30px 0px 30px;
+                    background: #FCF6E8;    
+                }
+            }
+            
+        }
+    }
+
+}
+
+
+//A Curriculum Built Upon Award-Winning Research
+.Curriculum{
+    background: #6D2936;
+    text-align: center;
+    position: relative;
+    .h2, .h3{
+        color: #FFFFFF;
+        margin: 0 auto;
+        z-index: 2; 
+    }
+    .h3{
+        margin-top: 30px;
+    }
+
+    ul{
+        z-index: 2;
+        margin: 0 auto;
+        margin-top: 80px;
+        margin-bottom: 55%;
+        padding: 0;
+        width: 85%;
+        max-width: 860px;
+        display: flex;  
+        align-items: center;
+        flex-wrap: wrap;
+        background: #FFFFFF;
+        border-radius: 30px 30px 0px 30px;
+        padding: 40px;
+        @media (max-width: 992px) {
+            justify-content: center;
+        }
+        @media (max-width: 567px) {
+            padding: 20px;
+        }
+        .ul_title{
+            width: 100%;
+            margin-bottom: 40px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 32px;
+            color: #6D2936;
+            text-align: center;
+            @media (max-width: 567px) {
+                margin-bottom: 0;
+                margin-top: 12px;
+            }
+        }
+
+        li{
+            list-style-type: none;
+            display: flex;
+            margin-top: 56px;
+            @media (max-width: 992px) {
+                margin-top: 24px !important;
+                width: 90%;
+            }
+            @media (max-width: 567px) {
+                width: 100%;
+            }
+            .mark{
+                background-color: transparent;
+                margin-right: 16px;
+            }
+            .list_body{
+                text-align: left;
+                min-height: 110px;
+                @media (max-width: 992px) {
+                        min-height: auto;
+                }
+                .title{
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 30px;
+                    color: #F3654A;
+                    @media (max-width: 425px) {
+                        font-size: 22px;
+                        line-height: 30px;
+                    }
+                }
+                .subtitle{
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #6D2936;
+                    margin-top: 8px;
+                    width: 344px;
+                    @media (max-width: 1200px) {
+                        width: 310px;
+                    }
+                    @media (max-width: 992px) {
+                        width: auto;
+                    }
+                    @media (max-width: 425px) {
+                        font-size: 16px;
+                        line-height: 24px;
+                    }
+                }
+
+            }
+            &:nth-child(2), &:nth-child(3){
+                margin-top: 0;
+            }
+            
+        }
+        
+        
+    }
+
+
+
+    .curriculum_img{
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+    }   
+}
+
+
+//Industry-Leading Instructors
+.leadingInstructors{
+    background: #FCF6E8;
+    text-align: center;
+    .h3{
+        margin-top: 30px;
+    }
+    ul{
+        width: 85%;
+        margin: 0 auto;
+        padding: 0;
+        margin-top: 44px;
+        display: flex;
+        flex-wrap: wrap;
+        li{
+            list-style-type: none;
+            padding: 10px;
+            .header_img{
+                position: relative;
+                .bg{
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+
+                    background: #F3654A;
+                    box-shadow: 0px 10px 30px rgba(152, 72, 91, 0.2);
+                    border-radius: 30px 30px 0px 30px;
+                    max-height: 75%;
+                }
+                
+                .header_img{
+                    width: 120%;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    z-index: 2; 
+                }
+            }
+
+
+            .list_body{
+                text-align: left;
+                padding-top: 24px;
+                .name{
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 28px;
+                    line-height: 32px;
+                    color: #6D2936;
+                    
+                }
+                .degree, .bio{
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #6D2936;
+                    margin-top: 16px;
+                }
+            }
+        }
+    }
+}
+
+
+//How Can a Nutrition Certificate Change Your Life
+.changeYourLife{
+    text-align: center;
+    background: #FCF6E8;
+    .h2,.h3{
+        max-width: 820px;
+        margin: 0 auto;
+    }
+    .h2{
+        color: #6D2936;
+        .h2_orange{
+            color: #F3654A;
+        }
+    }
+    .h3{
+        margin-top: 30px;
+        color: #98485B;
+    }
+    .box{
+        margin: 0 auto;
+        margin-top: 80px;
+        background: #FFFFFF;
+        box-shadow: 0px 10px 30px rgba(152, 72, 91, 0.2);
+        border-radius: 30px 30px 0px 30px;
+        padding: 60px 100px ;
+        color: #6D2936;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 50px;
+        min-height: 340px;
+        text-align: left;
+        @media (max-width: 768px) {
+            padding: 35px 40px;
+            font-size: 35px;
+            min-height: 280px;
+            
+        }
+        @media (max-width: 576px) {
+            padding: 40px 20px;
+            font-size: 28px;
+            line-height: 32px;
+            text-align: center;
+        }
+        .box_orange{
+            color: #F3654A;
+        }
+    }
+}
+
+
+//Save Big with Student Perks
+.box{
+    background: #6D2936;
+    text-align: center;
+    .h2,.h3{
+        color: #FFFFFF;
+        margin: 0 auto;
+    }
+    .h3{
+        margin-top: 30px;
+    }
+
+    .price_box{
+        padding: 40px;
+        background: #FFFFFF;
+        box-shadow: 0px -5px 50px rgba(0, 0, 0, 0.05);
+        border-radius: 30px;
+        text-align: left;
+        margin: 0 auto;
+        margin-top: 50px;
+        @media (max-width: 576px) {
+            width: 90% !important;
+        }
+        .list{
+            
+            padding-bottom: 34px;
+            border-bottom: 2px #F3654A solid;
+            
+            &_item{
+                display: flex;
+                align-items: center;
+                margin: 18px 0;
+                @media (max-width: 768px) {
+                    flex-wrap: wrap;
+                }
+                .title{
+                    margin-left: 8px;
+                    margin-right: 24px;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 28px;
+                    line-height: 32px;
+                    color: #F3654A;
+                    @media (max-width: 1400px) {
+                        font-size: 20px;
+                    }
+                    @media (max-width: 992px) {
+                        font-size: 18px;
+                        line-height: 24px;
+                    }
+                    @media (max-width: 768px) {
+                        font-size: 16px;
+                        line-height: 24px;
+                        max-width: 85%;
+                    }
+                    @media (max-width: 463px) {
+                        max-width: 79%;
+                        
+                    }
+                }
+                .value{
+                    background: #FCF6E8;
+                    border-radius: 41px;
+                    padding: 6px 16px;   
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #F3654A;
+                    @media (max-width: 992px) {
+                        font-size: 10px;
+                        line-height: 18px;
+                    }
+                    @media (max-width: 768px) {
+                        width: 100%;
+                        margin-right: 75%;
+                        margin-top: 16px;
+                        text-align: center;
+                    }
+                    @media (max-width: 567px) {
+                        margin-right: 65%;                        
+                    }
+                    @media (max-width: 440px) {
+                        margin-right: 55%;                        
+                    }
+                }
+
+            }
+        }
+        .total{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 45px;
+            color: #F3654A;
+            margin-top: 50px;
+            align-items: center;
+            display: flex;
+            @media (max-width: 992px) {
+                font-size: 25px;
+                line-height: 30px;
+                margin-top: 35px;
+            }
+            @media (max-width: 576px) {
+                flex-wrap: wrap;
+                width: 100%;
+            }
+            .price{
+                @media (max-width: 576px) {
+                    font-size: 40px;
+                    line-height: 45px;
+                    margin-top: 24px;
+                    width: 50%;
+                }
+            }
+            .price,.oldPrice{
+                margin-left: 16px;
+            }
+            .oldPrice{
+                font-size: 28px;
+                line-height: 32px;;
+                text-decoration-line: line-through;
+                @media (max-width: 992px) {
+                    font-size: 20px;
+                    line-height: 20px;
+                }
+                @media (max-width: 576px) {
+                    font-size: 28px;
+                    line-height: 32px;
+                    margin: auto auto 10px 0;
+                }
+                
+            }
+        }
+        .enroll_btn{
+            margin: 0 auto;
+            display: block;
+            margin-top: 45px;
+        }
+
+    }
+}
+
+
+//Save up to 60%
+.pricing{
+    background: #F3654A;
+    text-align: center;
+    .h2,.h3{
+        z-index: 2;
+        color: #FFFFFF;
+        margin: 0 auto; 
+    }
+    .h3{
+        margin-top: 30px;
+    }
+    .cards{
+        z-index: 2;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+        @media (max-width: 992px) {
+            flex-wrap: wrap;
+        }
+        .card{
+            margin: 10px;
+            background: #FFFFFF;
+            box-shadow: 0px -5px 50px rgba(0, 0, 0, 0.05);
+            border-radius: 30px;
+            text-align: left;
+            padding: 30px;
+            @media (max-width: 768px) {
+                padding: 20px;
+            }
+            .header_payment{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 30px;                
+                color: #F3654A;
+            }
+            .single_payment_before{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 28px;
+                line-height: 32px;
+                color: #6D2936;
+                margin-top: 56px;
+                .td{
+                    text-decoration-line: line-through;
+
+                }
+                
+                
+            }
+            .single_payment_sub{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 30px;
+                color: #6D2936;
+                font-size: 22px !important;
+                line-height: 30px !important;
+                text-decoration: none !important;
+            }
+            .single_payment_after{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 40px;
+                line-height: 45px;
+                color: #F3654A;
+                margin-top: 16px;
+                
+            }
+            .enroll_btn{
+                margin-top: 64px;
+            }
+        }
+    }
+    .cards_subtitle{
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 40%;
+        @media (max-width: 768px) {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .icon{
+            z-index: 2;
+            @media (max-width: 768px) {
+                margin-bottom: 24px;
+            }
+        }
+        .title{
+            margin: 0;
+            margin-left: 33px;
+            @media (max-width: 768px) {
+                padding: 0;
+                margin: 0;
+                text-align: center;
+                padding: 10px;
+            }
+        }
+    }
+
+    .pricing_img{
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+
+//Class Begins Soon!
+.enrollNow{
+    .h2,.h3{
+        text-align: center;
+        color: #6D2936;
+        margin: 0 auto; 
+        .orange{
+            color: #F3654A;
+        }
+    }
+    .h2{
+        font-size: 80px;
+        line-height: 84px;
+        @media (max-width: 576px) {
+            font-size: 45px;
+            line-height: 55px;
+        }
+    }
+    .h3{
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 45px;
+        margin-top: 24px;
+        @media (max-width: 576px) {
+            font-size: 25px;
+            line-height: 35px;
+        }
+    }
+
+    .card{
+        background: #F3654A;
+        box-shadow: 80px 80px 100px #C9B59E;
+        border-radius: 30px;
+        padding: 40px 50px;
+        margin: 0 auto;
+        margin-top: 60px;
+        text-align: center;
+        @media (max-width: 576px) {
+            padding: 25px;
+        }
+        .card_header{
+            margin: 0 20px;
+            @media (max-width: 576px) {
+                padding: 0;
+            }
+            .white{
+                color: #FFFFFF;
+            }
+        }
+        .card_subtitle{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 32px;
+            margin-top: 24px;
+            color: #FFFFFF;
+            @media (max-width: 576px) {
+                font-size: 20px;
+                line-height: 30px;
+            }
+        }
+        .enroll_btn{
+            font-size: 22px;
+            line-height: 26px;
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+    }
+}   
+
+
+
+
+//foooter
+.footer{
+    background: #6D2936;
+    .nav{
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        .logo{
+            @media (max-width: 768px) {
+                img{
+                    width: 275px;
+                }
+            }
+        }
+        .enroll_btn{
+            @media (max-width: 768px) {
+                margin-top: 20px;
+            }
+        }
+    }
+    .footer_ver{
+        margin-top: 75px;   
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;        
+        color: #F3654A;
+    }
+}

@@ -1,0 +1,165 @@
+
+@import url(fonts.css);
+
+.header, .section{
+    max-width: 1920px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.h1{
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 59px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.strong{
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.white-btn{
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 0;
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    color: #000000;
+    padding: 8px 11px;
+}
+
+.black-btn{
+    background: #000000;
+    border-radius: 10px;
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 24px;
+}
+
+.bg{
+    z-index: -1;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+
+//header
+
+.header{
+    overflow: hidden;
+    padding: 179px 0 68px 0;
+    .navigation{
+        position: fixed;
+        width: 100%;
+        max-width: 1920px;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+        background: rgba(255, 255, 255, 0.01);
+        backdrop-filter: blur(2px);
+        padding: 19px 0;
+        .container-fluid{
+            padding: 0 68px;
+            .navbar-brand{
+                padding: 0;
+                align-items: center;
+            }
+            .navbar-collapse {
+                justify-content: right;
+                .navbar-nav{
+                    align-items: center;
+                    .nav-item{
+                        padding: 0 39px;
+                        .nav-link{
+                            font-family: 'Geometria';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 15px;
+                            line-height: 19px;
+                            color: #FFFFFF;
+                        }
+                    }
+                    .item-btn{
+                        padding: 0;
+                        padding-left: 7px;
+                        
+                    }
+                    
+                }
+            }
+        }
+    } 
+
+    .h1_descr{
+        background: #FFFFFF;
+        border-radius: 43.5px;
+        width: 368px;
+        padding: 13px 24px 6px 24px;
+    }
+
+    .ul{
+        padding: 0;
+        margin: 50px 0 0 0;
+        .li{
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            .icon{
+                margin-right: 16px;
+            }
+            .title{
+                font-family: 'Geometria';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 24px;
+                line-height: 160%;
+                color: #FFFFFF;
+                display: flex;
+                margin: 0 5px;
+            }
+        }
+    }
+
+    .header_ps{
+        border: 2px solid #FDADF9;
+        border-radius: 29px;
+        padding: 37px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 106px;
+        .title{
+            display: flex;
+            font-family: 'Geometria';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 130%;
+            color: #FFFFFF;
+        }
+    }
+
+    
+    
+}
+

@@ -1,0 +1,311 @@
+@import url(fonts.css);
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+* {
+  font-family: "SF Pro Display";
+  font-style: normal;
+}
+
+body {
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.btn-white {
+  background: #FFFFFF;
+  border-radius: 24px;
+  border: none;
+  padding: 14px 28px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.015em;
+  color: #257CFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.section {
+  position: relative;
+  padding: 80px 0 65px 0;
+  background: transparent;
+  z-index: -1;
+}
+.section .title-h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.015em;
+  color: #000000;
+  margin: 0 auto;
+  padding: 0;
+}
+.section .subtitle-h2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.015em;
+  color: #858F9F;
+  margin: 0 auto;
+  margin-top: 8px;
+  padding: 0;
+}
+
+.header {
+  background: transparent;
+  width: 100%;
+  max-width: 1920px;
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+}
+@media (max-width: 992px) {
+  .header {
+    top: 0;
+  }
+}
+.header .navbar-toggler {
+  border: none;
+  background: rgba(255, 255, 255, 0.4862745098);
+}
+.header .navbar-collapse {
+  flex: 1 1 auto;
+}
+.header .navbar-collapse .navbar-nav {
+  margin: 0 auto;
+}
+.header .navbar-collapse .navbar-nav .nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .navbar-collapse .navbar-nav .nav-item .nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.015em;
+  color: #FFFFFF;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.56);
+}
+
+.theFastestWay {
+  position: relative;
+  padding: 229px 0 312px 0;
+  margin: 0 auto;
+  max-width: 1920px;
+  background-image: url("../img/compresed/main.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media (max-width: 768px) {
+  .theFastestWay {
+    padding: 140px 0 190px 0;
+  }
+}
+@media (min-width: 1441px) {
+  .theFastestWay {
+    padding: 229px 0 30% 0;
+  }
+}
+.theFastestWay .title-h1, .theFastestWay .subtitle-h1 {
+  z-index: 2;
+  margin: 0 auto;
+  text-align: center;
+}
+.theFastestWay .title-h1 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.015em;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.48);
+}
+@media (max-width: 768px) {
+  .theFastestWay .title-h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+.theFastestWay .subtitle-h1 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.015em;
+  color: #FFFFFF;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.56);
+  margin-top: 13px;
+}
+@media (max-width: 768px) {
+  .theFastestWay .subtitle-h1 {
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+
+.uneilingANewDimension .list {
+  margin: 0;
+  margin-top: 44px;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+@media (max-width: 1200px) {
+  .uneilingANewDimension .list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.uneilingANewDimension .list-item {
+  margin: 0;
+  position: 0;
+  list-style-type: none;
+  width: 270px;
+  height: 202px;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(241, 242, 246, 0) 0%, #F1F2F6 100%);
+  border-radius: 24px;
+  padding: 32px 24px 26px 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.uneilingANewDimension .list-item-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.015em;
+  color: #858F9F;
+}
+
+@media (max-width: 992px) {
+  .theProblem {
+    padding-top: 35px;
+  }
+}
+.theProblem .row {
+  align-items: center;
+}
+.theProblem .content-img {
+  padding-left: 30px;
+  text-align: center;
+  position: relative;
+}
+@media (max-width: 768px) {
+  .theProblem .content-img {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin: 0 auto;
+    order: 2;
+  }
+}
+.theProblem .content-img img {
+  max-width: 100%;
+  width: 406px;
+  height: auto;
+}
+@media (max-width: 992px) {
+  .theProblem .content-img img {
+    width: 300px;
+  }
+}
+
+.theSolution {
+  padding-top: 0;
+}
+.theSolution .content-text {
+  margin-top: 80px;
+}
+@media (max-width: 992px) {
+  .theSolution .content-text {
+    margin-top: 0;
+  }
+}
+.theSolution .content-img {
+  padding-left: 30px;
+  text-align: center;
+  position: relative;
+}
+.theSolution .content-img img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+@media (max-width: 992px) {
+  .theSolution .content-img img {
+    width: 360px;
+  }
+}
+
+.howItWorks {
+  padding: 0;
+}
+@media (max-width: 768px) {
+  .howItWorks {
+    padding-bottom: 65px;
+  }
+}
+.howItWorks .row {
+  gap: 8%;
+  align-items: center;
+}
+.howItWorks .content-img {
+  padding-left: 30px;
+  text-align: center;
+  position: relative;
+}
+@media (max-width: 768px) {
+  .howItWorks .content-img {
+    order: 2;
+  }
+}
+.howItWorks .content-img img {
+  width: 446px;
+  height: auto;
+  max-width: 100%;
+}
+@media (max-width: 992px) {
+  .howItWorks .content-img img {
+    width: 300px;
+  }
+}
+@media (max-width: 768px) {
+  .howItWorks .content-img img {
+    width: 360px;
+  }
+}
+
+@media (max-width: 768px) {
+  .theProblem .row, .theSolution .row, .howItWorks .row {
+    gap: 30px;
+    justify-content: center;
+  }
+}
+.theProblem .title-h2, .theProblem .subtitle-h2, .theSolution .title-h2, .theSolution .subtitle-h2, .howItWorks .title-h2, .howItWorks .subtitle-h2 {
+  text-align: left;
+}
+@media (max-width: 768px) {
+  .theProblem .title-h2, .theProblem .subtitle-h2, .theSolution .title-h2, .theSolution .subtitle-h2, .howItWorks .title-h2, .howItWorks .subtitle-h2 {
+    text-align: center;
+  }
+}
+.theProblem .subtitle-h2, .theSolution .subtitle-h2, .howItWorks .subtitle-h2 {
+  margin-top: 24px;
+}/*# sourceMappingURL=style.css.map */

@@ -1502,6 +1502,9 @@ h1 span {
     max-width: 100%;
   }
 }
+.cfo-section .content .cfo-section-pic img {
+    max-width: 100%;
+}
 
 .dropdown-section .dropdowns-list {
   display: flex;

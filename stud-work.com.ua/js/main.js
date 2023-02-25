@@ -53,9 +53,12 @@ document.addEventListener('DOMContentLoaded', ()=>{
     });
 
 
-    if(window.innerWidth <= 768){
-        alert('Cool');
-    }
+   var wow = new WOW(
+        {
+          mobile:       false,
+        }
+      );
+      wow.init();
 
     
     

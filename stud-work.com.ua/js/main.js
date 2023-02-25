@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
           },
     });
     
-   const wow = new WOW(
+   var wow = new WOW(
      {
        mobile:       false,       
      }

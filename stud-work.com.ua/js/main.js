@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     
    const wow = new WOW(
      {
-       mobile:       true,       
+       mobile:       false,       
      }
    );
    wow.init();

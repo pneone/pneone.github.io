@@ -43,7 +43,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
       });
 
 
-
-    if(window. innerWidth > 768){
+      if(window. innerWidth > 768){
         new WOW().init();
       }
+    
+})

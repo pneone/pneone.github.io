@@ -1,5 +1,9 @@
 document.addEventListener('DOMContentLoaded', ()=>{
 
+    if(window. innerWidth > 768){
+        new WOW().init();
+        }
+
     const openBtn = document.querySelector('#open'),
           closeBtn = document.querySelector('#close')
           navbarLinks = document.querySelector('.navbar__links');
@@ -40,11 +44,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
                 slidesPerView: 3,
               },
           },
-      });
+    });
 
-
-      if(window. innerWidth > 768){
-        new WOW().init();
-      }
-    
 })

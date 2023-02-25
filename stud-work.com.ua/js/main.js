@@ -44,11 +44,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
           },
     });
     
-     var wow = new WOW(
-        {
-          mobile:       false,
-        }
-      );
-      wow.init();
+    if(window.innerWidth >= 768){
+        new WOW().init();
+    }
 
 })

@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', ()=>{
 
-    new WOW().init();
+    if(window. innerWidth > 768){
+        new WOW().init();
+        }
 
     const openBtn = document.querySelector('#open'),
           closeBtn = document.querySelector('#close')

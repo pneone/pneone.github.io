@@ -44,8 +44,11 @@ document.addEventListener('DOMContentLoaded', ()=>{
           },
     });
     
-    new WOW({
+   var wow = new WOW();
+   wow = {
        mobile:       true,
-    }).init();
+    };
+   
+   wow.init();
 
 })

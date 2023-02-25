@@ -44,11 +44,11 @@ document.addEventListener('DOMContentLoaded', ()=>{
           },
     });
     
-   var wow = new WOW();
-   wow = {
-       mobile:       true,
-    };
-   
+   const wow = new WOW(
+     {
+       mobile:       true,       
+     }
+   );
    wow.init();
 
 })

@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="css/animate.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>STUDENTS.WORKS</title>
+    </style>
+</head>
+<body>
+
+    <div class="preloader">
+        <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    </div>
+
+    <div class="modal">
+        <form class="form">
+
+            <div class="close-modal">
+                <img src="img/close-modal.svg" alt="Modal close">
+            </div>
+
+            <div class="input-container">
+                <label for="userName">ІМ’Я*</label>
+                <input type="text" id="userName" required>
+            </div>
+
+            <div class="input-container">
+                <label for="typeProject">ВИД РОБОТИ</label>
+                <select id="typeProject" name="typeProject">
+                    <option value="Дипломні роботи">Дипломні роботи</option>
+                    <option value="Курсові роботи">Курсові роботи</option>
+                    <option value="Реферати">Реферати</option>
+                    <option value="Дисертації">Дисертації</option>
+                    <option value="Магістерські роботи">Магістерські роботи</option>
+                    <option value="Звіти з практики">Звіти з практики</option>
+                    <option value="Контрольні роботи">Контрольні роботи</option>
+                    <option value="Бізнес-плани">Бізнес-плани</option>
+                    <option value="Рішення задач">Рішення задач</option>
+                    <option value="Відповіді на білети">Відповіді на білети</option>
+                    <option value="Есе">Есе</option>
+                    <option value="Рецензії">Рецензії</option>
+                </select>
+            </div> 
+            
+            <div class="input-container">
+                <label for="userTel">МОБІЛЬНИЙ ТЕЛЕФОН*</label>
+                <input type="tel" name="userTel" id="userTel" required>
+            </div> 
+
+            <div class="input-container">
+                <label for="theme">ТЕМА РОБОТИ</label>
+                <input type="text" id="theme">
+            </div> 
+
+            <div class="input-container">
+                <label for="email">EMAIL*</label>
+                <input type="email" name="userEmail" id="email" required>
+            </div> 
+
+            <input type="submit" class="btn btn-white" value="Замовити">
+        </form>
+    </div>
+
+
+    <header class="header wow animate__animated animate__fadeInDown">
+        <nav class="navbar">
+
+            <div class="navbar__head">
+
+                <div class="navbar__head-logo">
+                    <a href="index.html">
+                        <img src="img/Logotype.svg" alt="STUDENTS.WORKS">
+                    </a>
+                </div>
+
+                <div class="navbar__head-btns">
+                    <button id="open">
+                        <img src="img/open-icon.svg" alt="open">
+                    </button>
+                    <button id="close">
+                        <img src="img/close-icon.svg" alt="close">
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="navbar__links">
+
+                <ul>
+                    <li><a href="index.html#about-us">ПРО НАС</a></li>
+                    <li><a href="index.html#how-to-make-an-order">Як зробити замовлення?</a></li>
+                    <li><a href="bonus.html">Бонуси для студентів</a></li>
+                    <li><a href="price.html">Послуги та ціни</a></li>
+                    <li><a href="pay.html">Оплата та гарантії</a></li>
+                </ul>
+
+            </div>
+
+            
+
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="section head-section">
+            <div class="container">
+                <div class="content">
+                    <h1 class="main-title wow animate__animated animate__fadeInLeft">
+                        КУРСОВІ, ДИПЛОМНІ ТА ІНШІ ВИДИ ІНДИВІДУАЛЬНИХ РОБІТ
+                    </h1>
+                    
+                    <h2 class="h2 wow animate__animated animate__fadeInLeft">
+                        ЗАВТРА ЗДАЧА РОБОТЫ?
+                    </h2>
+
+                    <div class="h2-medium wow animate__animated animate__fadeInLeft">
+                        А ТИ ВИЖАТИЙ ЯК ЛИМОН?
+                    </div>
+
+                    <div class="h2-medium wow animate__animated animate__fadeInLeft">
+                        НЕ БІДА!
+                    </div>
+
+                    <button class="btn btn-blue wow animate__animated animate__fadeInUp open-modal">Напиши нам і ми все зробимо </button>
+                </div>
+
+                <div class="picture wow animate__animated animate__fadeInRight">
+                    <img src="img/home-img.png" alt="Home page">
+                </div>
+            </div>
+        </section>
+
+        <section class="section why-us-section">
+            <div class="container">
+                <h2 class="h2 wow animate__animated animate__fadeInDown">ЧОМУ МИ?</h2>
+
+                <div class="content">
+
+                    <ul class="benefits-list">
+                        <li class="wow animate__animated animate__fadeInLeft">
+                            <div class="icon">
+                                <img src="img/benefits-icon-1.svg" alt="Money">
+                            </div>
+                            <div class="title">ЦІНИ</div>
+                            <div class="subtitle">Ми точно розуміємо - СТУДЕНТИ НЕ МІЛІОНЕРИ, тому у НАС найкращі ціни - переконайтесь у цьому сомстійно (курсова робота - від 605 грн).</div>
+                        </li>
+
+                        <li class="wow animate__animated animate__fadeInDown">
+                            <div class="icon">
+                                <img src="img/benefits-icon-2.svg" alt="Unique">
+                            </div>
+                            <div class="title">Унікальність</div>
+                            <div class="subtitle">Висока унікальність робіт від 60% - 95%. Перевіряємо на автоплагіаті.</div>
+                        </li>
+                        <li class="wow animate__animated animate__fadeInRight">
+                            <div class="icon">
+                                <img src="img/benefits-icon-3.svg" alt="Quality">
+                            </div>
+                            <div class="title">Якість</div>
+                            <div class="subtitle">Тільки найкращі автори - практикуючі спеціалісти та викладачі університетів</div>
+                        </li>
+                        <li class="wow animate__animated animate__fadeInUp">
+                            <div class="icon">
+                                <img src="img/benefits-icon-4.svg" alt="Speed">
+                            </div>
+                            <div class="title">ШВИДКІСТЬ</div>
+                            <div class="subtitle">Своєчасність здачі роботи. Потрібна робота за одну ніч? Не проблема напишемо в кращому вигляді!</div>
+                        </li>
+                            
+                    </ul>
+
+                    <ul class="stats-list">
+
+                        <li class="wow animate__animated animate__fadeInLeft">
+                            <div class="icon">
+                                <img src="img/stats-icon-1.svg" alt="Clients List">
+                            </div>
+                            <div class="title">200+</div>
+                            <div class="subtitle">Задоволених клієнтів</div>
+                        </li>
+                        <li class="wow animate__animated animate__fadeInLeft">
+                            <div class="icon">
+                                <img src="img/stats-icon-2.svg" alt="Clients List">
+                            </div>
+                            <div class="title">320+</div>
+                            <div class="subtitle">Виконаних робіт</div>
+                        </li>
+                        <li class="wow animate__animated animate__fadeInLeft">
+                            <div class="icon">
+                                <img src="img/stats-icon-3.svg" alt="Clients List">
+                            </div>
+                            <div class="title">10+</div>
+                            <div class="subtitle">Найкращих спеціалістів</div>
+                        </li>
+                        <li class="wow animate__animated animate__fadeInLeft">
+                            <div class="icon">
+                                <img src="img/stats-icon-4.svg" alt="Clients List">
+                            </div>
+                            <div class="title">24/7</div>
+                            <div class="subtitle">Кожного дня без вихідних</div>
+                        </li>
+                        <li class="wow animate__animated animate__fadeInLeft">
+                            <div class="icon">
+                                <img src="img/stats-icon-5.svg" alt="Clients List">
+                            </div>
+                            <div class="title">>3 років</div>
+                            <div class="subtitle">досвіду роботи</div>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section id="how-to-make-an-order" class="section how-to-make-an-order-section">
+
+            <div class="container">
+                <h2 class="h2 wow animate__animated animate__fadeInDown">ЯК ЗРОБИТИ ЗАМОВЛЕННЯ?</h2>
+
+                <ul class="big-list">
+                    <li class="wow animate__animated animate__fadeInUpBig">
+                        <div class="point">
+                            <img src="img/point.svg" alt="point">
+                        </div>
+                        <div class="text">Через електронну форму, вказавши тип роботи, % унікальності, тему, вимоги (можливо прикріпити методичку), терміни виконання</div>
+                    </li>
+
+                    <li class="wow animate__animated animate__fadeInUpBig">
+                        <div class="point">
+                            <img src="img/point.svg" alt="point">
+                        </div>
+                        <div class="text">Написати на електронну пошту <a href="mailto:lemonstudentsworks@gmail.com">
+                            lemonstudentsworks@gmail.com
+                        </a> </div>
+                    </li>
+
+                    <li class="wow animate__animated animate__fadeInUpBig">
+                        <div class="point">
+                            <img src="img/point.svg" alt="point">
+                        </div>
+                        <div class="text">Написати в Telegram на номер <a href="tel:+380954018455">(+38) 095-401-8455</a></div>
+                    </li>
+
+                    <li class="wow animate__animated animate__fadeInUpBig">
+                        <div class="point">
+                            <img src="img/point.svg" alt="point">
+                        </div>
+                        <div class="text">Написати в <a href="#">Instagram</a></div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="about-us" class="section about-us-section">
+
+            <div class="container">
+                <h2 class="h2 wow animate__animated animate__fadeInDown">ПРО НАС</h2>
+                <h3 class="h3-medium wow animate__animated animate__fadeInDown">Пишемо всі види робіт: дипломні (магістра, бакалавра), курсові, 
+                    звіти з практики, реферати, наукові статті, 
+                    а також ВІДПОВІДІ НА БІЛЕТИ!</h3>
+
+                <ul class="small-list">
+                    <li class="wow animate__animated animate__fadeInUpBig">
+                        <div class="point">
+                            <img src="img/small-point.svg" alt="point">
+                        </div>
+                        <div class="text">Ми - клієнтоорієнтована компанія, тому головною метою для нас є задоволеність клієнтів!</div>
+                    </li>
+
+                    <li class="wow animate__animated animate__fadeInUpBig">
+                        <div class="point">
+                            <img src="img/small-point.svg" alt="point">
+                        </div>
+                        <div class="text">Завжди беремо тільки ті замовлення, які наші автори зможуть виконати.</div>
+                    </li>
+
+                    <li class="wow animate__animated animate__fadeInUpBig">
+                        <div class="point">
+                            <img src="img/small-point.svg" alt="point">
+                        </div>
+                        <div class="text">Усі роботи проходять перевірку <span>антиплагіату (не менше 60%).</span></div>
+                    </li>
+
+                    <li class="wow animate__animated animate__fadeInUpBig">
+                        <div class="point">
+                            <img src="img/small-point.svg" alt="point">
+                        </div>
+                        <div class="text"><span>Не беремо в автори студентів.</span> У нас працюють тільки автори з вищою освітою.</div>
+                    </li>
+
+                    <li class="wow animate__animated animate__fadeInUpBig">
+                        <div class="point">
+                            <img src="img/small-point.svg" alt="point">
+                        </div>
+                        <div class="text">Не розголошуємо інформацію про замовників.</div>
+                    </li>
+
+                    <li class="wow animate__animated animate__fadeInUpBig">
+                        <div class="point">
+                            <img src="img/small-point.svg" alt="point">
+                        </div>
+                        <div class="text">У нас завжди є приємні <span>бонуси</span> для студентів.</div>
+                    </li>
+
+                    <li class="wow animate__animated animate__fadeInUpBig">
+                        <div class="point">
+                            <img src="img/small-point.svg" alt="point">
+                        </div>
+                        <div class="text"><span>У нас найнижчі (гідні) ціни. Переконайтеся в цьому самі.</span></div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section slider-section">
+            <div class="container">
+                <h2 class="h2 wow animate__animated animate__fadeInDown">ВІДГУКИ</h2>
+                <div class="slider-box ">
+                    <button class="prev slider-btn wow animate__animated animate__fadeInLeft">
+                        <img src="img/prev-btn.svg" alt="prev">
+                    </button>
+                    <div class="swiper mySwiper wow animate__animated animate__fadeInUp">
+                    
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="slide-img-box">
+                                <img src="img/rew-1.png" alt="review">
+                            </div>
+                          </div>
+
+                          <div class="swiper-slide">
+                            <div class="slide-img-box">
+                                <img src="img/rew-2.png" alt="review">
+                            </div>
+                          </div>
+
+                          <div class="swiper-slide">
+                            <div class="slide-img-box">
+                                <img src="img/rew-3.png" alt="review">
+                            </div>
+                          </div>
+
+                          <div class="swiper-slide">
+                            <div class="slide-img-box">
+                                <img src="img/rew-1.png" alt="review">
+                            </div>
+                          </div>
+
+                          <div class="swiper-slide">
+                            <div class="slide-img-box">
+                                <img src="img/rew-2.png" alt="review">
+                            </div>
+                          </div>
+
+                          <div class="swiper-slide">
+                            <div class="slide-img-box">
+                                <img src="img/rew-3.png" alt="review">
+                            </div>
+                          </div>
+                        </div>
+    
+    
+                        
+                    </div>
+    
+                    <button class="next slider-btn wow animate__animated animate__fadeInRight">
+                        <img src="img/next-btn.svg" alt="next">
+                    </button>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="section price-section">
+            <div class="container">
+                <h2 class="h2 wow animate__animated animate__fadeInDown">ПОСЛУГИ</h2>
+                <ul class="cards-list">
+                    <li class="wow animate__animated animate__fadeInRightBig">
+                        <h3 class="title">Дипломні роботи</h3>
+                        <div class="price">Від 3100 грн</div>
+
+                        <ul class="card-benefits">
+                            <li>Унікальність</li>
+                            <li>Унікальність</li>
+                            <li>Унікальність</li>
+                            <li>Унікальність</li>
+                        </ul>
+
+                        <button class="btn btn-white open-modal">Замовити</button>
+                    </li>
+
+                    <li class="wow animate__animated animate__fadeInRightBig">
+                        <h3 class="title">Курсові роботи</h3>
+                        <div class="price">Від 650 грн</div>
+
+                        <ul class="card-benefits">
+                            <li>Унікальність</li>
+                            <li>Унікальність</li>
+                            <li>Унікальність</li>
+                            <li>Унікальність</li>
+                        </ul>
+
+                        <button class="btn btn-white open-modal">Замовити</button>
+                    </li>
+
+                    <li class="wow animate__animated animate__fadeInRightBig">
+                        <h3 class="title">Реферати</h3>
+                        <div class="price">Від 250 грн</div>
+
+                        <ul class="card-benefits">
+                            <li>Унікальність</li>
+                            <li>Унікальність</li>
+                            <li>Унікальність</li>
+                            <li>Унікальність</li>
+                        </ul>
+
+                        <button class="btn btn-white open-modal">Замовити</button>
+                    </li>
+                </ul>
+
+                <button class="btn btn-blue wow animate__animated animate__fadeInUp"><a href="price.html">
+                    Більше інформації про ціни
+                </a></button>
+            </div>
+        </section>
+
+        <section class="section form-section">
+
+            <div class="container">
+                <h2 class="h2 wow animate__animated animate__fadeInDown">ЗАМОВ РОБОТУ</h2>
+                <h3 class="h3-big wow animate__animated animate__fadeInLeftBig">ВЖЕ ЗАРАЗ</h3>
+                <button class="btn btn-blue wow animate__animated animate__fadeInUpBig"><a href="#how-to-make-an-order">
+                    Як зробити замовлення?
+                </a></button>
+            </div>
+
+            <form  class="form wow animate__animated animate__fadeInRightBig">
+                <div class="input-container">
+                    <label for="userName">ІМ’Я*</label>
+                    <input type="text" id="userName" required>
+                </div>
+
+                <div class="input-container">
+                    <label for="typeProject">ВИД РОБОТИ</label>
+                    <select id="typeProject" name="typeProject">
+                        <option value="Дипломні роботи">Дипломні роботи</option>
+                        <option value="Курсові роботи">Курсові роботи</option>
+                        <option value="Реферати">Реферати</option>
+                        <option value="Дисертації">Дисертації</option>
+                        <option value="Магістерські роботи">Магістерські роботи</option>
+                        <option value="Звіти з практики">Звіти з практики</option>
+                        <option value="Контрольні роботи">Контрольні роботи</option>
+                        <option value="Бізнес-плани">Бізнес-плани</option>
+                        <option value="Рішення задач">Рішення задач</option>
+                        <option value="Відповіді на білети">Відповіді на білети</option>
+                        <option value="Есе">Есе</option>
+                        <option value="Рецензії">Рецензії</option>
+                    </select>
+                </div> 
+                
+                <div class="input-container">
+                    <label for="userTel">МОБІЛЬНИЙ ТЕЛЕФОН*</label>
+                    <input type="tel" name="userTel" id="userTel" required>
+                </div> 
+
+                <div class="input-container">
+                    <label for="theme">ТЕМА РОБОТИ</label>
+                    <input type="text" id="theme">
+                </div> 
+
+                <div class="input-container">
+                    <label for="email">EMAIL*</label>
+                    <input type="email" name="userEmail" id="email" required>
+                </div> 
+
+                <input type="submit" class="btn btn-white" value="Замовити">
+            </form>
+
+        </section>
+
+
+    </main>
+
+    <footer class="footer section">
+        <div class="container wow animate__animated animate__fadeInUp">
+            <nav class="navbar">
+
+                <div class="navbar__head">
+    
+                    <div class="navbar__head-logo">
+                        <a href="index.html">
+                            <img src="img/Logotype.svg" alt="">
+                        </a>
+                    </div>
+    
+                </div>
+    
+                <div class="navbar__links links-open">
+    
+                    <ul>
+                        <li><a href="bonus.html">Бонуси для студентів</a></li>
+                        <li><a href="price.html">Послуги та ціни</a></li>
+                        <li><a href="pay.html">Оплата та гарантії</a></li>
+                    </ul>
+    
+                </div>
+    
+                
+    
+            </nav>
+
+            <div class="contacts">
+                <ul class="contacts-list">
+                    <li>
+                        <a href="#">
+                            <img src="img/telegram.svg" alt="telegram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/tel.svg" alt="tel">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/viber.svg" alt="viber">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/mail.svg" alt="mail">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js" integrity="sha512-Rd5Gf5A6chsunOJte+gKWyECMqkG8MgBYD1u80LOOJBfl6ka9CtatRrD4P0P5Q5V/z/ecvOCSYC8tLoWNrCpPg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

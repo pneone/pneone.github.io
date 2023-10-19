@@ -1,0 +1,31 @@
+.themeColor{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    z-index: 1;
+}
+
+.themeColorActive{
+    width: 350%;
+    height: 450%; 
+    transition: all 1s ease;
+    z-index: 1;
+}
+
+.themeColorActiveLong{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 350%;
+    height: 350%; 
+    transition: all 1.1s ease;
+    z-index: 0;
+}
+

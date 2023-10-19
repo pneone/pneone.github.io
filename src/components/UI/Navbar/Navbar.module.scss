@@ -1,0 +1,103 @@
+
+.navbar{
+    margin: 22.5px 20px 40px ;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    .navbarTitle{
+        color: #99ADBF;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .navbarLinks{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .navbarLink{
+            color: #99ADBF;
+            position: relative;
+            
+
+            a{
+                color: inherit;
+                text-decoration: none;
+                padding: 10px 0 10px 35px;
+                display: block;
+
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                position: relative;
+                transition: color .2s ease, padding .2s ease;
+           
+                i{
+                    position: absolute;
+                    left: 0;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    font-size: 20px;
+                    color: #304455;
+                    transition: color .2s ease;
+                }
+
+                span{   
+                    color: #99ADBF;
+                    mix-blend-mode: difference;
+                }
+            }
+
+            &:hover{
+                color: #334657;
+
+                a{
+                    padding-left: 40px;
+                    i{
+                        color: #E5050F;
+                    }
+                }
+            }
+
+            &::before{
+                content: '';
+                position: absolute;
+                width: 0;
+                height: 33px;
+                left: -51px;
+                top: 50%;
+                transform: translateY(-50%);
+                border-radius: 0px 5px 5px 0px;
+                background-color: #E5050F;
+                transition: width .2s ease;
+            }
+            
+        }
+
+        .activeTab{
+            color: #334657;
+            a{
+                padding-left: 40px;
+                i{
+                    color: #E5050F;
+                }
+                span{   
+                    color: #334657;
+                    mix-blend-mode: difference;
+                }
+            }
+
+            &::before{
+                width: 6px;
+
+            }
+        }
+    }
+
+    
+}

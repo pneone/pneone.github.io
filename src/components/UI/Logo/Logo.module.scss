@@ -1,0 +1,26 @@
+.logo{
+    margin-bottom: 55px;
+    margin-top: 40px;
+    margin-left: 20px;
+
+    a{
+        display: block;
+        text-decoration: none;
+
+        &:after{
+            content: '.';
+            font-size: 40px;
+            font-weight: 500;
+            line-height: 0;
+            color: red;
+        }
+
+        img{
+            width: auto;
+            height: 31px;
+            object-fit: contain;
+
+        }
+    }
+
+}

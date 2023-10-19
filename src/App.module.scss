@@ -1,0 +1,36 @@
+.appWrapper{
+    // background-color: black;
+    min-height: 100vh;
+
+    position: relative;
+    overflow: hidden;    
+
+    .app{
+        position: relative;
+        z-index: 2;
+    }
+}
+
+*{
+    /* width */
+    &::-webkit-scrollbar {
+        width: 7px;
+    }
+    
+    /* Track */
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        background:  #E5050F;
+        border-radius: 10px 0 0 10px;
+    }
+    
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+        background:  #E5050F;
+    }
+}
+

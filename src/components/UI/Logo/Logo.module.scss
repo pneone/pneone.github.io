@@ -1,7 +1,7 @@
 .logo{
-    margin-bottom: 55px;
-    margin-top: 40px;
-    margin-left: 20px;
+    margin-bottom: 2rem;
+    margin-top: 2.55rem;
+    margin-left: 1.2rem;
 
     a{
         display: block;
@@ -9,7 +9,7 @@
 
         &:after{
             content: '.';
-            font-size: 40px;
+            font-size: 2.5rem;
             font-weight: 500;
             line-height: 0;
             color: red;
@@ -17,7 +17,7 @@
 
         img{
             width: auto;
-            height: 31px;
+            height: 2rem;
             object-fit: contain;
 
         }

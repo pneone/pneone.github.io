@@ -1,40 +1,41 @@
 .taskCard{
     display: flex;
     margin-top: auto;
-    padding: 45px 25px 20px 25px;
+    margin: 2.3rem 0 0 0;
+    padding: 3.2rem 1rem 1.3rem 1rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: .7rem;
     align-self: stretch;
 
-    border-radius: 20px;
+    border-radius: 1.2rem;
     background: #E6EBF3;
     position: relative;
 
+    transition: background .5s ease;
+
     .icon{
-        background: #829BB0;
-        width: 65px;
-        height: 65px;
+        width: 4.2rem;
+        height: 4.2rem;
         position: absolute;
-        border-radius: 17px;
+        border-radius: 1rem;
         display: flex;
         justify-content: center;
         align-items: center;
         top: 0;
         transform: translateY(-50%);
+        transition: background .5s ease;
 
         i{
-            font-size: 25px;
+            font-size: 1.5rem;
             color: #fff;
         }
     }
 
     .taskTitle{
-        color: #334758;
-
         text-align: center;
-        font-size: 16px;
+        font-size: 1.1rem;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -44,10 +45,10 @@
         color: #7F8D9B;
 
         text-align: center;
-        font-size: 13px;
+        font-size: .9rem;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        margin-bottom: 15px;
+        margin-bottom: 1rem;
     }
 }

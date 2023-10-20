@@ -5,11 +5,11 @@ import styles from './Button.module.scss'
 function Button({data, bgColor, contentType}) {
 
   let inlineStyles = {
-    background: bgColor,
+    background: bgColor
   };
   
   if(contentType == 'icon' ){
-    inlineStyles.fontSize = '25px';
+    inlineStyles.fontSize = '1.3rem';
   }
 
   return (

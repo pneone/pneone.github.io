@@ -5,7 +5,7 @@ import Navbar from '../UI/Navbar/Navbar'
 import TasksCard from '../TasksCard/TasksCard';
 import ThemeSwitcher from '../UI/ThemeSwitcher/ThemeSwitcher';
 
-export default function Sidebar({isDarkSet}) {
+export default function Sidebar({ isDark, isDarkSet, colors}) {
 
   const menuLinks = [
     {
@@ -53,12 +53,12 @@ export default function Sidebar({isDarkSet}) {
   }
 
   return (
-    <div className={styles.appSidebar}>
-        <ThemeSwitcher testF={test} />
-        <Logo/>
-        <Navbar navTitle={'Меню'} navLinks={menuLinks}/>
-        <Navbar navTitle={'Опції'}  navLinks={optionsLinks}/>
-        <TasksCard/>
+    <div className={styles.appSidebar} style={{borderRight: `1px ${colors.borderColor} solid`}}>
+        <ThemeSwitcher isDark={isDark} testF={test} />
+        <Logo logoSrc={colors.logoSrc}/>
+        <Navbar activeColor={colors} navTitle={'Меню'} navLinks={menuLinks}/>
+        <Navbar activeColor={colors} navTitle={'Опції'}  navLinks={optionsLinks}/>
+        <TasksCard activeColor={colors}/>
     </div>
   )
 }

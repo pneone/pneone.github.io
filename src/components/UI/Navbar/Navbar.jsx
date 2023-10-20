@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import styles from './Navbar.module.scss'
 import NavbarLink from './NavbarLink/NavbarLink'
 
-export default function Navbar({navTitle, navLinks}) {
+export default function Navbar({navTitle, navLinks, activeColor}) {
 
   
   return (
@@ -13,7 +13,7 @@ export default function Navbar({navTitle, navLinks}) {
         {navLinks && 
           <ul className={styles.navbarLinks}>
 
-            {navLinks.map((item, index) => <NavbarLink key={index} item={item} styles={styles}/>)}
+            {navLinks.map((item, index) => <NavbarLink key={index} activeColor={activeColor} item={item} styles={styles}/>)}
 
           </ul>}
 

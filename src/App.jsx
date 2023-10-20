@@ -9,6 +9,25 @@ import Header from './components/UI/Header/Header';
 
 function App() {
 
+  const themes = {
+    dark: {
+      textColor: '#fff',
+      accentColor: '#141519',
+      btnColorSidebar: '#2C2D35',
+      logoSrc: './assets/images/mCharacterLight.svg',
+      borderColor: '#23242A'
+    },
+
+    light: {
+      textColor: '#334657',
+      accentColor: '#E6EBF3',
+      btnColorSidebar: 'rgb(130, 155, 176)',
+      logoSrc: './assets/images/mainCharacter.svg',
+      borderColor: '#DFE3EC'
+    }
+  }
+
+
   const [popularMovies, setPopularMovies] = useState([]);
     
   useEffect(() => {
@@ -41,11 +60,14 @@ function App() {
   }, []);
 
 
-  const [isDark, setIsDark] = useState(false);
+  const [isDark, setIsDark] = useState(() => localStorage.getItem('isDarkMode') == "true" ? true : false);
+
 
   function isDarkSetter(item){
     setIsDark(item);
+    localStorage.setItem('isDarkMode', item);
   }
+
 
   return (
     <div className={styles.appWrapper}>
@@ -56,10 +78,10 @@ function App() {
       <ThemeDark isActive={isDark}/> 
 
       <div className={styles.app}>
-        <Sidebar isDarkSet={isDarkSetter}/>
+        <Sidebar isDark={isDark} colors={ isDark ? themes.dark : themes.light } isDarkSet={isDarkSetter}/>
 
         <ContentContainer>
-          <Header/>
+          <Header colors={ isDark ? themes.dark : themes.light }/>
           <HeroSlider data={popularMovies}/>
         </ContentContainer> 
       </div>

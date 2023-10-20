@@ -1,9 +1,9 @@
 
 .navbar{
-    margin: 22.5px 20px 40px ;
+    margin: 1.3rem 1.2rem 2.5rem;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 1rem;
 
     .navbarTitle{
         color: #99ADBF;
@@ -17,20 +17,19 @@
         list-style: none;
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: .5rem;
 
         .navbarLink{
             color: #99ADBF;
             position: relative;
-            
 
             a{
                 color: inherit;
                 text-decoration: none;
-                padding: 10px 0 10px 35px;
+                padding: 0.8rem 0 .8rem 2.2rem;
                 display: block;
 
-                font-size: 18px;
+                font-size: 1.1rem;
                 font-style: normal;
                 font-weight: 700;
                 line-height: normal;
@@ -42,22 +41,20 @@
                     left: 0;
                     top: 50%;
                     transform: translateY(-50%);
-                    font-size: 20px;
-                    color: #304455;
+                    font-size: 1.2rem;
+                    color: #99ADBF;
                     transition: color .2s ease;
                 }
 
                 span{   
-                    color: #99ADBF;
                     mix-blend-mode: difference;
                 }
             }
 
             &:hover{
-                color: #334657;
 
                 a{
-                    padding-left: 40px;
+                    padding-left: 2.5rem;
                     i{
                         color: #E5050F;
                     }
@@ -68,8 +65,8 @@
                 content: '';
                 position: absolute;
                 width: 0;
-                height: 33px;
-                left: -51px;
+                height: 2rem;
+                left: -3.2rem;
                 top: 50%;
                 transform: translateY(-50%);
                 border-radius: 0px 5px 5px 0px;
@@ -80,20 +77,18 @@
         }
 
         .activeTab{
-            color: #334657;
             a{
-                padding-left: 40px;
+                padding-left: 2.5rem;
                 i{
                     color: #E5050F;
                 }
                 span{   
-                    color: #334657;
                     mix-blend-mode: difference;
                 }
             }
 
             &::before{
-                width: 6px;
+                width: .3rem;
 
             }
         }

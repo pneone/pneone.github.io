@@ -2,7 +2,7 @@
     display: block;
     border-radius: 1.2rem;
 
-    padding: 20px 30px;
+    padding: 1.1rem 1.5rem;
     
     color: #FFF;
 
@@ -17,7 +17,7 @@
     align-items: center;
     justify-content: center;
 
-    transition: transform .2s ease;
+    transition: transform .2s ease, background .2s ease;
 
     &:hover{
         transform: scale(1.05);
